@@ -1,0 +1,26 @@
+ol img {
+  width: 800px;
+  margin-bottom: 60px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+li {
+  font-size: 30px;
+  background-color: black;
+  border-radius: 20px;
+  height: 45px;
+  color: white;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+ol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
