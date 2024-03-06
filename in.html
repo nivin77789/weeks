@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    gfxhjhkj
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+    <embed type="image/jpg" src="./group.png" width="300" height="200">
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at <em>nivin </em>Walt Disney World Resort featuring exciting attractions,
+            international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+    <dialog open>This is an open dialog window</dialog>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <figure>
+            <img src="./group.png" alt="Trulli" height="70px" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+    </form>
+    <iframe src="https://www.nivin.xyz" title="W3Schools Free Online Web Tutorials" style="border-radius: 20px;"
+        width="400px" height="800px"></iframe>
+    <form action="/action_page.php">
+        <label for="fnname">First name:</label>
+        <input type="text" id="fnname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.5">60%</meter>
+    <script>
+        document.write("Hello World!")
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+    <label for="cars">Choose a car:</label>
+
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form>
+    <object data="horse.wav">
+        <param name="autoplay" value="true">
+    </object>
+    <picture>
+        <source media="(max-width:50px)" srcset="./group.png">
+        <!-- <img src="./group.png" alt="Flowers" style="width:auto;"> -->
+    </picture>
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+        </pre>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+    <p>WWF's goal is to:
+        <q>Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p>
+    <ruby>
+        漢 <rp>(</rp>
+        <rt>ㄏㄢˋ</rt>
+        <rp>)</rp>
+    </ruby>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <p>Message from my computer:</p>
+
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <search>
+        <form>
+            <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
+        </form>
+    </search>
+    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+        <label for="w3review">Review of W3Schools:</label>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+    </table>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+    <video width="320" height="240" controls>
+        <source src="forrest_gump.mp4" type="video/mp4">
+        <source src="forrest_gump.ogg" type="video/ogg">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+    </video>
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is
+        the vertical height.</p>
+    <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button onclick="showContent()">Show hidden content</button>
+
+    <template>
+        <h2>Flower</h2>
+        <img src="img_white_flower.jpg" width="214" height="204">
+    </template>
+
+    <script>
+        function showContent() {
+            let temp = document.getElementsByTagName("template")[0];
+            let clon = temp.content.cloneNode(true);
+            document.body.appendChild(clon);
+        }
+    </script>
+</body>
+
+</html>
